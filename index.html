@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.1.0 for Hugo">
+  <meta name="author" content="Weixu Zhang">
+  <meta name="description" content="Master student of NLP in Xi'an Jiaotong University & Paris-Saclay University">
+  <link rel="alternate" hreflang="en-us" href="https://weixuzhang.github.io/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <meta name="theme-color" content="#1565c0">
+  <link rel="stylesheet" href="./Weixu Zhang_files/css/academicons.min.css" 
+    integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg=="
+    crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="./Weixu Zhang_files/css/all.min.css"
+    integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./Weixu Zhang_files/css/jquery.fancybox.min.css"
+    integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="all"
+    onload="this.media='all';">
+  <link rel="stylesheet" href="./Weixu Zhang_files/css/github.min.css" crossorigin="anonymous" title="hl-light" media="all"
+    onload="this.media='all';">
+  <link rel="stylesheet" href="./Weixu Zhang_files/css/dracula.min.css" crossorigin="anonymous" title="hl-dark"
+    media="print" onload="this.media='all';" disabled="">
+  <link rel="preload" as="style" href="./Weixu Zhang_files/css2">
+  <link rel="stylesheet" href="./Weixu Zhang_files/css2" media="all" onload="this.media='all';">
+  <link rel="stylesheet" href="./Weixu Zhang_files/css/wowchemy.9a66e344a68eb664b392d406a3f80726.css">
+  <script src="./Weixu Zhang_files/js/netlify-identity-widget.js"></script>
+  <link rel="alternate" href="https://weixuzhang.github.io/index.xml" type="application/rss+xml" title="Weixu Zhang">
+  <link rel="manifest" href="https://weixuzhang.github.io/index.webmanifest">
+  <!-- <link rel="icon" type="image/png"
+    href="https://weixuzhang.github.io/media/icon_hubb1664ae6bdd89b83ac944cf1f97f468_203000_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png"
+    href="https://weixuzhang.github.io/media/icon_hubb1664ae6bdd89b83ac944cf1f97f468_203000_180x180_fill_lanczos_center_2.png"> -->
+  <link rel="canonical" href="https://weixuzhang.github.io/">
+  <meta property="twitter:card" content="summary">
+  <meta property="og:site_name" content="Weixu Zhang">
+  <meta property="og:url" content="https://weixuzhang.github.io/">
+  <meta property="og:title" content="Weixu Zhang">
+  <meta property="og:description" content="Master student of NLP in Xi'an Jiaotong University & Paris-Saclay University">
+  <!-- <meta property="og:image"
+    content="https://weixuzhang.github.io/media/icon_hubb1664ae6bdd89b83ac944cf1f97f468_203000_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image"
+    content="https://weixuzhang.github.io/media/icon_hubb1664ae6bdd89b83ac944cf1f97f468_203000_512x512_fill_lanczos_center_2.png"> -->
+  <meta property="og:locale" content="en-us">
+  <meta property="og:updated_time" content="2023-09-23T06:00:00+08:00">
+  <script
+    type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","potentialAction":{"@type":"SearchAction","target":"https://weixuzhang.github.io?q={search_term_string}","query-input":"required name=search_term_string"},"url":"https://weixuzhang.github.io"}
+  </script>
+  <title>Weixu Zhang</title>
+  <!-- <link rel="prefetch" href="https://weixuzhang.github.io/publication/interviz/">
+  <link rel="prefetch" href="https://weixuzhang.github.io/publication/robustness/">
+  <link rel="prefetch" href="https://weixuzhang.github.io/publication/survey/">
+  <link rel="prefetch" href="https://weixuzhang.github.io/publication/mchase/"> -->
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper">
+  <script src="./Weixu Zhang_files/js/wowchemy-init.min.226a9011996d125bf3fe4a5f22353a49.js"></script>
+  <aside class="search-modal" id="search">
+    <div class="container">
+      <section class="search-header">
+        <div class="row no-gutters justify-content-between mb-3">
+          <div class="col-6">
+            <h1>Search</h1>
+          </div>
+          <div class="col-6 col-search-close"><a class="js-search" href="https://weixuzhang.github.io/#" aria-label="Close"><i
+                class="fas fa-times-circle text-muted" aria-hidden="true"></i></a></div>
+        </div>
+        <div id="search-box"><input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+            autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+            aria-label="Search..."></div>
+      </section>
+      <section class="section-search-results">
+        <div id="search-hits"></div>
+      </section>
+    </div>
+  </aside>
+  <div class="page-header">
+    <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+      <div class="container-xl">
+        <div class="d-none d-lg-inline-flex"><a class="navbar-brand" href="https://weixuzhang.github.io/">Weixu Zhang</a>
+        </div><button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content"
+          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars"></i></span></button>
+        <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class="navbar-brand"
+            href="https://weixuzhang.github.io/">Weixu Zhang</a></div>
+        <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+          <ul class="navbar-nav d-md-inline-flex">
+            <li class="nav-item"><a class="nav-link" href="https://weixuzhang.github.io/#about"
+                data-target="#about"><span>Home</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://weixuzhang.github.io/#featured"
+                data-target="#featured"><span>Projects</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://weixuzhang.github.io/#experience"
+                data-target="#experience"><span>Experience</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://weixuzhang.github.io/#accomplishments" 
+                data-target="#accomplishments"><span>Honors & Awards</span></a></li>
+            <li class="nav-item"><a class="nav-link"
+                href="./Weixu Zhang_files/files/cv.pdf"><span>CV</span></a></li>
+          </ul>
+        </div>
+        <!-- <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+          <li class="nav-item"><a class="nav-link js-search" href="https://weixuzhang.github.io/#" aria-label="Search"><i
+                class="fas fa-search" aria-hidden="true"></i></a></li>
+          <li class="nav-item dropdown theme-dropdown"><a href="https://weixuzhang.github.io/#" class="nav-link"
+              data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences"><i class="fas fa-moon"
+                aria-hidden="true"></i></a>
+            <div class="dropdown-menu"><a href="https://weixuzhang.github.io/#"
+                class="dropdown-item js-set-theme-light"><span>Light</span></a>
+              <a href="https://weixuzhang.github.io/#" class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+              <a href="https://weixuzhang.github.io/#" class="dropdown-item js-set-theme-auto"><span>Automatic</span></a>
+            </div>
+          </li>
+        </ul> -->
+      </div>
+    </nav>
+  </div>
+  <div class="page-body"><span class="js-widget-page d-none"></span>
+    <section id="about" class="home-section wg-about">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div id="profile"><img class="avatar avatar-circle"
+                src="./Weixu Zhang_files/images/weixu.jpg"
+                alt="Weixu Zhang">
+              <div class="portrait-title">
+                <h2>Weixu Zhang</h2>
+                <h3>M.Eng. student of Xi'an Jiaotong University</h3>
+              </div>
+              <!-- <ul class="network-icon" aria-hidden="true">
+                <li><a href="mailto:weixuzhang260@gmail.com" aria-label="envelope"><i
+                      class="fas fa-envelope big-icon"></i></a></li>
+                <li><a
+                    href="https://scholar.google.com/citations?hl=en&amp;user=8sdGK_0AAAAJ&amp;view_op=list_works&amp;sortby=pubdate"
+                    target="_blank" rel="noopener" aria-label="graduation-cap"><i
+                      class="fas fa-graduation-cap big-icon"></i></a></li>
+                <li><a href="https://github.com/weixuzhang" target="_blank" rel="noopener" aria-label="github"><i
+                      class="fab fa-github big-icon"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/weixu-zhang-9293a226a/" target="_blank" rel="noopener"
+                    aria-label="linkedin"><i class="fab fa-linkedin big-icon"></i></a></li>
+              </ul> -->
+              
+              <div class="col-md-12" style="padding-left: 35% ">
+                <div class="row">
+                  <div class="col text-left">
+                    <span aria-label="location" style="font-size: 19px; color: black;">
+                      <i class="fas fa-map-marker-alt" style="font-size: 19px;"></i>
+                      <span>Xi'an, China</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-left">
+                    <a href="mailto:weixuzhang260@gmail.com" aria-label="envelope" style="font-size: 19px; color: black;">
+                      <i class="fas fa-envelope" style="font-size: 19px;"></i>
+                      <span>Email</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-left">
+                    <a href="https://github.com/weixuzhang" target="_blank" rel="noopener" aria-label="github" style="font-size: 19px; color: black;">
+                      <i class="fab fa-github" style="font-size: 19px;"></i>
+                      <span>Github</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-left">
+                    <a href="https://www.linkedin.com/in/weixu-zhang-9293a226a/" target="_blank" rel="noopener" aria-label="linkedin" style="font-size: 19px; color: black;">
+                      <i class="fab fa-linkedin" style="font-size: 19px;"></i>
+                      <span>LinkedIn</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+  
+              
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <h1>Biography</h1>
+            <div class="article-style">
+              <p>Hello there and thank you for visiting my website!</p>         
+              <p>I'm a third year M.Eng. student at <a href="http://en.xjtu.edu.cn/" target="_blank" rel="noopener">Xi'an Jiaotong University</a>, guided by Prof. <a href="https://fanmingxjtu.github.io/" target="_blank" rel="noopener">Ming Fan</a> and Prof. <a href="https://scholar.google.com/citations?user=vcG2mn8AAAAJ&hl=en" target="_blank" rel="noopener">Ting Liu</a>. 
+              I received my B.Eng. from Xi'an Jiaotong University and Engineer's degree from <a href="http://www.universite-paris-saclay.fr/en" target="_blank" rel="noopener">Paris-Saclay University (CentraleSupélec)</a>. I'm looking forward to graduating in June 2024.
+              My research is rooted in semantic parsing and natural language processing. I've had the chance to delve into projects on natural language interfaces for database querying and visualization. 
+              More recently, I'm focusing on the robustness, trustworthiness, and reliability of large language models.
+              Previously, I have done research internships at <a href="https://www.tencent.com/" target="_blank" rel="noopener">Tencent's WeChat Group</a>, <a href="https://www.huawei.com/en/" target="_blank" rel="noopener">Huawei's 2012 Lab</a>, and <a href="https://www.idea.edu.cn/" target="_blank" rel="noopener">IDEA Lab</a>. 
+              I've also had the pleasure of contributing to research projects at the <a href="https://www.cam.ac.uk/" target="_blank" rel="noopener">University of Cambridge</a> and <a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener">Imperial College London</a>.</p>
+              <p>As I look toward the future, I am actively seeking Ph.D. positions starting in 2024. If you're interested in NLP, large language models, or see potential for collaborative research, I would be thrilled to connect and discuss further.</p>
+          </div>
+          
+            <div class="row">
+              <div class="col-md-5">
+                <div class="section-subheading">Interests</div>
+                <ul class="ul-interests">
+                  <li>Artificial Intelligence</li>
+                  <li>Natural Language Processing</li>
+                  <li>Semantic Parsing</li>
+                  <li>Data Mining</li>
+                </ul>
+
+                <div class="section-subheading">Skills</div>
+                <ul class="ul-interests">
+                  <li><span style="font-weight: bold; font-size: 0.9em;">Language:</span> <span style="font-size: 0.8em;">Chinese (native), English (IELTS 7.5), French (DALF C1)</span></li>
+                  <li><span style="font-weight: bold; font-size: 0.9em;">Programming:</span> <span style="font-size: 0.8em;">Python, Java, SQL, PyTorch, Latex, Matlab</span></li>
+                </ul>
+              </div>
+
+
+
+              <div class="col-md-7">
+                <div class="section-subheading">Education</div>
+                <ul class="ul-edu fa-ul">
+                  <li>
+                    <i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course" style="font-size: 0.8em; font-weight: bold;">MEng Computer Engineering, 2024(expected)</p>
+                      <p class="institution"style="font-size: 0.8em">Xi'an Jiaotong University</p>
+                      <a href="./Weixu Zhang_files/files/xjtu_2024.pdf" download style="font-size: 0.7em;">GPA: 90.0/100, transcript</a>
+                    </div>
+                  </li>
+                  
+                  
+                  <li><i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course" style="font-size: 0.8em; font-weight: bold;">Joint MEng (Engineer's degree), 2024</p>
+                      <p class="institution"style="font-size: 0.8em">Paris-Saclay University (CentraleSupélec)</p>
+                      <a href="./Weixu Zhang_files/files/paris_2024.pdf" download style="font-size: 0.7em;">GPA: 3.77/4.3, transcript</a>
+                    </div>
+                  </li>
+                  <li><i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course" style="font-size: 0.8em; font-weight: bold;">BEng in Energy Engineering, 2021</p>
+                      <p class="institution"style="font-size: 0.8em">Xi'an Jiaotong University</p>
+                      <a href="./Weixu Zhang_files/files/xjtu_2021.pdf" download style="font-size: 0.7em;">GPA: 88.2/100, transcript</a>
+                    </div>
+                  </li>
+                  <li><i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course" style="font-size: 0.8em; font-weight: bold;">BSc in Fundamental Physics, 2020</p>
+                      <p class="institution"style="font-size: 0.8em">Paris-Saclay University</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="featured" class="home-section wg-pages">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Research Projects</h1>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="card-simple">
+              <div class="article-metadata">
+                <div><span>Weixu Zhang</span>, <span>Haiqin Yang</span>, <span>Yiyan Qi</span>, <span>Yu Wang
+                    </span>, <span>Ming Fan</span></div><span class="article-date">Contributed submission</span>
+                <span class="middot-divider"></span><span class="pub-publication">Proceedings of the Annual Meeting of the Association for Computational
+                  Linguistics, <em>ACL 2024</em> </span>
+              </div><a href="#">
+                <div class="img-hover-zoom"><img
+                    src="./Weixu Zhang_files/images/interviz.jpg"
+                    class="article-banner" alt="Binding Language Models in Symbolic Languages" loading="lazy"></div>
+              </a>
+              <div class="section-subheading article-title mb-1 mt-3"><a
+                  href="./Weixu Zhang_files/files/interviz.pdf" download>InterViz: A Large-Scale Conversational Benchmark
+                  Towards Interactive Natural Language Interfaces to Data Visualization</a>
+              </div>
+              <!-- <div class="btn-links"><a class="btn btn-outline-primary btn-page-header btn-sm"
+                  href="https://arxiv.org/abs/2210.02875" target="_blank" rel="noopener">PDF</a>
+                <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/HKUNLP/binder"
+                  target="_blank" rel="noopener">Code</a>
+                <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://lm-code-binder.github.io/"
+                  target="_blank" rel="noopener">Project</a>
+              </div> -->
+            </div>
+            <div class="card-simple">
+              <div class="article-metadata">
+                <div><span>Weixu Zhang</span>, <span>Yu Wang</span>, <span>Ming Fan</span></div>
+                <span class="article-date">Accepted submission</span>
+                <span class="middot-divider"></span><span class="pub-publication">Proceedings of the 2023 International Conference on Artificial Neural
+                  Networks, <em>ICANN 2023</em> </span>
+              </div><a href="#">
+                <div class="img-hover-zoom"><img
+                    src="./Weixu Zhang_files/images/robustness.jpg"
+                    class="article-banner" alt="" loading="lazy"></div>
+              </a>
+              <div class="section-subheading article-title mb-1 mt-3"><a
+                href="./Weixu Zhang_files/files/robustness.pdf" download>Towards Robustness of Large Language Models on Text-to-SQL Task: An
+                Adversarial and Cross-Domain Investigation</a>
+              </div>
+            </div>
+            <div class="card-simple">
+              <div class="article-metadata">
+                <div><span>Weixu Zhang</span>, <span>Yifei Wang</span>, <span>Yuanfeng Song</span>, <span>Victor Junqiu Wei
+                    </span>, <span>Yuxing Tian</span>, <span>Yiyan Qi</span>, <span>Jonathan H. Chan
+                    </span>, <span>Raymond Chi-Wing Wong</span>, <span>Haiqin Yang</span></div><span
+                  class="article-date">Contributed submission</span>
+                <span class="middot-divider"></span><span class="pub-publication">IEEE Transactions on Knowledge and Data Engineering, <em>TKDE</em>, Survey Track</span>
+              </div><a href="#">
+                <div class="img-hover-zoom"><img
+                    src="./Weixu Zhang_files/images/survey.jpg"
+                    class="article-banner"
+                    alt="Natural Language Interfaces to Tabular Data Querying and Visualization: A Survey"
+                    loading="lazy"></div>
+              </a>
+              <div class="section-subheading article-title mb-1 mt-3"><a
+                href="./Weixu Zhang_files/files/survey.pdf" download>Natural Language Interfaces to Tabular Data Querying and Visualization: A Survey</a>
+              </div>
+            </div>
+            <div class="card-simple">
+              <div class="article-metadata">
+                <div><span>Yu Wang</span>, <span>Ming Fan</span>, <span>Jiawei Lin</span>,
+                  <span>Weixu Zhang</span>, <span>Zhitao Wang</span>, <span>Hanjing Su</span>, <span>Ling Peng</span>,
+                  <span>Li Sun</span>, <span>Ting Liu.</span></div>
+                  <span class="article-date">Contributed submission</span>
+                <span class="middot-divider"></span><span class="pub-publication">Proceedings
+                  of the 2023 Conference on Empirical Methods in Natural Language Processing, <em>EMNLP</em></span>
+              </div><a href="#">
+                <div class="img-hover-zoom"><img
+                    src="./Weixu Zhang_files/images/mchase.jpg"
+                    class="article-banner"
+                    alt="mchase" loading="lazy">
+                </div>
+              </a>
+              <div class="section-subheading article-title mb-1 mt-3"><a
+                  href="./Weixu Zhang_files/files/mchase.pdf" download> mChase: A Multi-Language and Context-Dependent Text-to-SQL Dataset towards Pragmatic Semantic Parsing</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="home-section wg-experience">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Experience</h1>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="row experience">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                  <div class="col">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <div class="m-2"><span class="badge badge-pill border">&nbsp;</span></div>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-content-start">
+                      <div class="mr-2 mb-2"><img src="./Weixu Zhang_files/images/huawei.jfif" width="56px" height="56px"
+                          alt="huawei"></div>
+                      <div>
+                        <div class="section-subheading card-title exp-title text-muted my-0">Research Intern</div>
+                        <div class="section-subheading card-title exp-company text-muted my-0">Huawei 2012 Lab, supervised by Dr. Zhihu Wang</div>
+                        <div class="text-muted exp-meta">Jul. 2023 – present
+                          <span class="middot-divider"></span><span>Beijing, China</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row experience">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <div class="m-2"><span class="badge badge-pill border">&nbsp;</span></div>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-content-start">
+                      <div class="mr-2 mb-2"><img src="./Weixu Zhang_files/images/idea.jfif" width="56px" height="56px"
+                          alt="idea"></div>
+                      <div>
+                        <div class="section-subheading card-title exp-title text-muted my-0">Research Intern</div>
+                        <div class="section-subheading card-title exp-company text-muted my-0">IDEA, supervised by 
+                          Dr. <a href="https://hqyang.github.io/" target="_blank" rel="noopener" style="color: inherit;">Haiqin Yang</a></div>
+                        <div class="text-muted exp-meta">May 2023 – Jul. 2023
+                          <span class="middot-divider"></span><span>Shenzhen, China</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row experience">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <div class="m-2"><span class="badge badge-pill border">&nbsp;</span></div>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-content-start">
+                      <div class="mr-2 mb-2"><img src="./Weixu Zhang_files/images/xjtu.jfif" width="56px" height="56px"
+                          alt="xjtu"></div>
+                      <div>
+                        <div class="section-subheading card-title exp-title text-muted my-0">Master's Project</div>
+                        <div class="section-subheading card-title exp-company text-muted my-0">Xi'an Jiaotong University, supervised by 
+                          Prof. <a href="https://fanmingxjtu.github.io/" target="_blank" rel="noopener" style="color: inherit;">Ming Fan</a> and Prof. <a href="https://scholar.google.com/citations?user=vcG2mn8AAAAJ&hl=en" target="_blank" rel="noopener" style="color: inherit;">Ting Liu</a></div>
+                        <div class="text-muted exp-meta">Sep. 2022 – present
+                          <span class="middot-divider"></span><span>Xi'an, China</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row experience">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <div class="m-2"><span class="badge badge-pill border">&nbsp;</span></div>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-content-start">
+                      <div class="mr-2 mb-2"><img src="./Weixu Zhang_files/images/cambridge.jfif" width="56px" height="56px"
+                          alt="cambridge"></div>
+                      <div>
+                        <div class="section-subheading card-title exp-title text-muted my-0">Research Intern</div>
+                        <div class="section-subheading card-title exp-company text-muted my-0">University of Cambridge, supervised by 
+                          Prof. <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank" rel="noopener" style="color: inherit;">Pietro Liò, </a> 
+                          <a href="./Weixu Zhang_files/files/rl.pdf" download style="color: inherit;">Ref Letter</a>
+                        </div>             
+                        <div class="text-muted exp-meta">Aug. 2022 – Nov. 2022
+                          <span class="middot-divider"></span><span>Cambridge, UK</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row experience">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <div class="m-2"><span class="badge badge-pill border">&nbsp;</span></div>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-content-start">
+                      <div class="mr-2 mb-2"><img src="./Weixu Zhang_files/images/tencent.jfif" width="56px" height="56px"
+                          alt="tencent"></div>
+                      <div>
+                        <div class="section-subheading card-title exp-title text-muted my-0">Research Intern</div>
+                        <div class="section-subheading card-title exp-company text-muted my-0">WeChat Group, Tencent Holdings Ltd., supervised by 
+                          Dr. <a href="https://zhitao-wang.github.io/" target="_blank" rel="noopener" style="color: inherit;">Zhitao Wang</a> </div>
+                        <div class="text-muted exp-meta">May. 2022 – Jul. 2022
+                          <span class="middot-divider"></span><span>Shenzhen, China</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row experience">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <div class="m-2"><span class="badge badge-pill border">&nbsp;</span></div>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-content-start">
+                      <div class="mr-2 mb-2"><img src="./Weixu Zhang_files/images/paris.jfif" width="56px" height="56px"
+                          alt="paris"></div>
+                      <div>
+                        <div class="section-subheading card-title exp-title text-muted my-0">Engineering Project</div>
+                        <div class="section-subheading card-title exp-company text-muted my-0">Paris-Saclay University, supervised by 
+                          Prof. <a href="https://l2s.centralesupelec.fr/en/u/makarov-maria/" target="_blank" rel="noopener" style="color: inherit;">Maria Makarov</a></div>
+                        <div class="text-muted exp-meta">Dec. 2020 – Jun. 2021
+                          <span class="middot-divider"></span><span>Paris, France</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row experience">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <div class="m-2"><span class="badge badge-pill border">&nbsp;</span></div>
+                <div class="row h-50">
+                  <div class="col">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-content-start">
+                      <div class="mr-2 mb-2"><img src="./Weixu Zhang_files/images/ic.jfif" width="56px" height="56px"
+                          alt="ic"></div>
+                      <div>
+                        <div class="section-subheading card-title exp-title text-muted my-0">Research Project</div>
+                        <div class="section-subheading card-title exp-company text-muted my-0">Hamlyn Centre, Imperial College London, supervised by 
+                          Dr. <a href="https://www.imperial.ac.uk/people/benny.lo" target="_blank" rel="noopener" style="color: inherit;">Benny Lo</a></div>
+                        <div class="text-muted exp-meta">Jan. 2019 – Feb. 2019
+                          <span class="middot-divider"></span><span>London, UK</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="accomplishments" class="home-section wg-accomplishments">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Honors & Awards</h1>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="card experience course">
+              <div class="card-body">
+                <div class="section-subheading card-title exp-title text-muted my-0">Excellent Postgraduate Student</div>
+                <div class="card-subtitle my-0 article-metadata">Xi'an Jiaotong University, China<span
+                    class="middot-divider"></span>
+                  2022</div>
+              </div>
+            </div>
+            <div class="card experience course">
+              <div class="card-body">
+                <div class="section-subheading card-title exp-title text-muted my-0">First-class Scholarship for Academic Excellence</div>
+                <div class="card-subtitle my-0 article-metadata">Xi'an Jiaotong University, China<span class="middot-divider"></span>
+                  2022</div>
+              </div>
+            </div>
+            <div class="card experience course">
+              <div class="card-body">
+                <div class="section-subheading card-title exp-title text-muted my-0">Internet plus Innovation Competition, Bronze Award</div>
+                <div class="card-subtitle my-0 article-metadata">Xi'an Jiaotong University, China <span
+                    class="middot-divider"></span>
+                    2022</div>
+              </div>
+            </div>
+            <div class="card experience course">
+              <div class="card-body">
+                <div class="section-subheading card-title exp-title text-muted my-0">Tengfei Cup Innovation Competition, Excellence Award</div>
+                <div class="card-subtitle my-0 article-metadata">Xi'an Jiaotong University, China<span
+                    class="middot-divider"></span>
+                    2022</div>
+              </div>
+            </div>
+            <div class="card experience course">
+              <div class="card-body">
+                <div class="section-subheading card-title exp-title text-muted my-0">Eiffel Excellence Scholarship</div>
+                <div class="card-subtitle my-0 article-metadata"><a href="https://www.campusfrance.org/en/the-eiffel-scholarship-program"
+                    target="_blank" rel="noopener">Ministry of Education, France</a><span class="middot-divider"></span>
+                    2019-2021</div>
+              </div>
+            </div>
+            <div class="card experience course">
+              <div class="card-body">
+                <div class="section-subheading card-title exp-title text-muted my-0">Innovation and Entrepreneurship Competition, Silver Award</div>
+                <div class="card-subtitle my-0 article-metadata">Xi'an Jiaotong University, China<span
+                    class="middot-divider"></span>
+                  2019</div>
+              </div>
+            </div>
+            <div class="card experience course">
+              <div class="card-body">
+                <div class="section-subheading card-title exp-title text-muted my-0">China Undergraduate Mathematical Contest in Modelling, First Prize</div>
+                <div class="card-subtitle my-0 article-metadata"><a href="http://en.mcm.edu.cn/"
+                    target="_blank" rel="noopener">China Society for Industrial and Applied Mathematics, China</a><span
+                    class="middot-divider"></span>
+                  2018</div>
+              </div>
+            </div>
+            <div class="card experience course">
+              <div class="card-body">
+                <div class="section-subheading card-title exp-title text-muted my-0">Excellent Undergraduate Student</div>
+                <div class="card-subtitle my-0 article-metadata"><a
+                    href="https://www.comap.com/undergraduate/contests/mcm/contests/2020/results/" target="_blank"
+                    rel="noopener">Xi'an Jiaotong University, China</a><span
+                    class="middot-divider"></span>
+                  2018</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="page-footer">
+    <div class="container">
+      <footer class="site-footer">
+        <p class="powered-by">© {2023} Me</p>
+        <p class="powered-by">Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank"
+            rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules"
+            target="_blank" rel="noopener">open source</a> website builder that empowers creators.</p>
+      </footer>
+    </div>
+  </div>
+  <div id="modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cite</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span></button>
+        </div>
+        <div class="modal-body">
+          <pre><code class="tex hljs"></code></pre>
+        </div>
+        <div class="modal-footer"><a class="btn btn-outline-primary my-1 js-copy-cite" href="https://weixuzhang.github.io/#"
+            target="_blank"><i class="fas fa-copy"></i>Copy</a>
+          <a class="btn btn-outline-primary my-1 js-download-cite" href="https://weixuzhang.github.io/#" target="_blank"><i
+              class="fas fa-download"></i>Download</a>
+          <div id="modal-error"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./Weixu Zhang_files/js/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+  <script src="./Weixu Zhang_files/js/instantpage.min.js"
+    integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ=="
+    crossorigin="anonymous"></script>
+  <script src="./Weixu Zhang_files/js/imagesloaded.pkgd.min.js"
+    integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+  <script src="./Weixu Zhang_files/js/isotope.pkgd.min.js"
+    integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+  <script src="./Weixu Zhang_files/js/jquery.fancybox.min.js"
+    integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="./Weixu Zhang_files/js/highlight.min.js"
+    integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw=="
+    crossorigin="anonymous"></script>
+  <script src="./Weixu Zhang_files/js/r.min.js"></script>
+  <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+  <script src="./Weixu Zhang_files/js/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI="
+    crossorigin="anonymous"></script>
+  <script src="./Weixu Zhang_files/js/jquery.mark.min.js"
+    integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+  <script src="./Weixu Zhang_files/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+  <script src="./Weixu Zhang_files/js/wowchemy.min.9abe1da066d99ae37e3d8db40924ca92.js"></script><iframe
+    id="netlify-identity-widget" title="Netlify identity widget"
+    style="position: fixed; top: 0; left: 0; border: none; width: 100%; height: 100%; overflow: visible; background: transparent; display: none; z-index: 99; "
+    src="./Weixu Zhang_files/saved_resource.html"></iframe>
+  <div id="forest-ext-shadow-host"><template shadowrootmode="open">
+
+      <head></head>
+      <div id="root"></div>
+    </template></div>
+</body>
+
+</html>
